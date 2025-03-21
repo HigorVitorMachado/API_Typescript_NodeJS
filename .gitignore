@@ -1,7 +1,7 @@
 # compiled output
  /dist
  /node_modules
- 
+
  # Logs
  logs
  *.log
@@ -9,14 +9,14 @@
  yarn-debug.log*
  yarn-error.log*
  lerna-debug.log*
- 
+
  # OS
  .DS_Store
- 
+
  # Tests
  /coverage
  /.nyc_output
- 
+
  # IDEs and editors
  /.idea
  .project
@@ -25,22 +25,22 @@
  *.launch
  .settings/
  *.sublime-workspace
- 
+
  # IDE - VSCode
  .vscode/*
  !.vscode/settings.json
  !.vscode/tasks.json
  !.vscode/launch.json
  !.vscode/extensions.json
- 
+
  # Docker
  .docker/*
  !.docker/entrypoint.sh
  !.docker/postgres/Dockerfile
- 
+
  .env
  tsconfig.tsbuildinfo
- 
+
  uploads/*
  !uploads/.gitkeep
  db.sqlite
